@@ -1,21 +1,18 @@
 import java.util.Scanner;
-
 public class BloodDonationEligibility {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Input from user
-        System.out.print("Enter your weight in kg: ");
-        double weight = scanner.nextDouble();
-
-        // Check eligibility
-        if (weight >= 50) {
-            System.out.println("You are eligible to donate blood.");
-        } else {
-            System.out.println("You are not eligible to donate blood. Minimum weight is 50 kg.");
-        }
-
-        scanner.close();
-    }
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+// Input from user
+System.out.print("Enter your weight in kg: ");
+ double weight = scanner.nextDouble();
+// Check eligibility
+if (weight >= 50) {
+System.out.println("You are eligible to donate blood.");
+ } else 
+{
+ System.out.println("You are not eligible to donate blood. Minimum weight is 50 kg.");
+}
+ scanner.close();
+}
 }
 
